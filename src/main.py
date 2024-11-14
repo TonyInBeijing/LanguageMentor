@@ -9,7 +9,6 @@ def main():
         create_scenario_tab()
         create_conversation_tab()
         create_vocab_tab()
-    
     # 启动应用
     language_mentor_app.launch(share=True, server_name="0.0.0.0")
 
